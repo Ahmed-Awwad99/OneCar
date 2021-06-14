@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="img/tabLogo.png">
+    <title>One Car</title>
+</head>
+<body>
+    
+<section class="sub-header">
+<nav><a href="index.html"><img src="img/llogo.png" width="272px" height="78px"></a>
+<div class="nav-links" id="nav-links">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+    <li><a href="index.html">Home</a> </li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="prouducts.html">Prouducts</a></li>
+    <li><a href="SignUp.html">Sign Up</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+
+</nav>
+<h1>About Us</h1>
+</section>
+
+<!-- -------------------------------------------------------- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are One car the best choice you can make</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, incidunt pariatur. Modi fugiat odit aliquid, impedit enim iure consequatur tempora quam! Modi, debitis explicabo reiciendis harum natus alias impedit ratione?</p>
+            <a href="SignUp.html"class=" hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------- -->
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nam quo. Esse autem omnis hic? Officiis aut vero consectetur saepe aperiam enim necessitatibus. <br>Obcaecati facilis soluta voluptatibus, ipsam esse non.</p>
+    <div class="icon">
+        <a href="https://www.facebook.com/"target="blank"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/"target="blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.instagram.com/"target="blank"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/"target="blank"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.reddit.com/"target="blank"><i class="fa fa-reddit"></i></a> 
+        <a href="https://mail.google.com/"target="blank"><i class="fa fa-envelope"></i></a> 
+    </div>
+</section>
+<!--------------------------------------------- -->
+<script>
+    var navLinks=document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0px";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

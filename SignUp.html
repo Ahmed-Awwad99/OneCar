@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="img/tabLogo.png">
+    <title>One Car</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav><a href="index.html"><img src="img/llogo.png" width="272px" height="78px"></a>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="prouducts.html">Prouducts</a></li>
+                <li><a href="SignUp.html">Sign Up</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>What are you wating for? joing now!</h1>
+</section>
+
+<!-- -------------------------------------------------------- -->
+
+<section class="sign-content">
+    <div class="row">
+        <div class="sign-left">
+            <img src="img/join us.jpg" alt="">
+            <h2>Our Services &  plans for 2021</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores eligendi, porro deleniti odit dicta quas laboriosam veritatis totam hic, cumque accusamus, culpa temporibus? Modi ipsum cum tenetur debitis fugit!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores eligendi, porro deleniti odit dicta quas laboriosam veritatis totam hic, cumque accusamus, culpa temporibus? Modi ipsum cum tenetur debitis fugit!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores eligendi, porro deleniti odit dicta quas laboriosam veritatis totam hic, cumque accusamus, culpa temporibus? Modi ipsum cum tenetur debitis fugit!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores eligendi, porro deleniti odit dicta quas laboriosam veritatis totam hic, cumque accusamus, culpa temporibus? Modi ipsum cum tenetur debitis fugit!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores eligendi, porro deleniti odit dicta quas laboriosam veritatis totam hic, cumque accusamus, culpa temporibus? Modi ipsum cum tenetur debitis fugit!</p>
+            
+            
+        </div>
+        <div class="sign-right">
+            <h1>
+            Sign up and join us Now 
+            </h1>
+            <p>
+            Please fill the following data :-
+            </p>
+            <form class="form" id="form" action="index.html" method="get" onsubmit="return validation(); ">
+                
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" >
+                <div><span id="error9"></span></div>
+                
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" >
+                <div><span id="error10"></span></div>
+                
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="example@one.car" >
+                <div><span id="error01"></span></div>
+
+                <label for="password">password </label>
+                <input  name="password" type="password"  id ="password"  >
+                <div id="error">
+                    <span id="error8"></span>  <span id="error1"></span><span id="error2"></span><span id="error3"></span><span id="error4"></span><span id="error5"></span><span id="error6"></span><span id="error7"></span>
+                </div>
+                
+                <label for="password">confirm password</label>
+                <input name="passward" type="password"  id="conpass" >
+                <div id="error"><span id="error03"></span></div>
+
+                <label for="address">Address:</label>
+                <input type="text" name="address" placeholder="optional">
+                
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx" >
+                <div id="error"><span id="error02"></span></div>
+
+                <label for="gender">Gender:</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br>
+                </div>
+                
+                <div class="row"> 
+                    <div class="sub-col">
+                        <input type="submit" name="submit" class="submit hero-btn red-btn" value="submit" >
+                    </div> 
+                    <div class="clear-col">
+                        <input class="hero-btn red-btn" type="reset" value="clear" /> 
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+            
+</section>
+
+<!-- --------------------------------------- -->
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nam quo. Esse autem omnis hic? Officiis aut vero consectetur saepe aperiam enim necessitatibus. <br>Obcaecati facilis soluta voluptatibus, ipsam esse non.</p>
+    <div class="icon">
+        <a href="https://www.facebook.com/"target="blank"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/"target="blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.instagram.com/"target="blank"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/"target="blank"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.reddit.com/"target="blank"><i class="fa fa-reddit"></i></a> 
+        <a href="https://mail.google.com/"target="blank"><i class="fa fa-envelope"></i></a> 
+    </div>
+</section>
+<!--------------------------------------------- -->
+<script src="main.js"></script>
+</body>
+</html>

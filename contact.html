@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="img/tabLogo.png">
+    <title>One Car</title>
+</head>
+<body>
+    
+<section class="sub-header">
+<nav><a href="index.html"><img src="img/llogo.png" width="272px" height="78px"></a>
+<div class="nav-links" id="nav-links">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+    <li><a href="index.html">Home</a> </li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="prouducts.html">Prouducts</a></li>
+    <li><a href="SignUp.html">Sign Up</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+
+</nav>
+<h1>Contact Us</h1>
+</section>
+
+<!-- -------------------------------------------------------- -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8123053879413!2d31.250780721542807!3d30.099561381951055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584011af8feb2f%3A0xd839444d08bb1fa5!2z2YPZhNmK2Kkg2KfZhNmH2YbYr9iz2Kkg2KjYtNio2LHYpyDYrNin2YXYudipINio2YbZh9inIC0g2YXYqNmG2Ykg2KfZhNiu2YTZgdin2YjZig!5e0!3m2!1sar!2seg!4v1623466928753!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>108 Shoubra street AA building</h5>
+                    <p>Cairo, Egypt</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+20123456789</h5>
+                    <p>10 Am to 6pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@onecar.com</h5>
+                    <p>Emil us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email adress" required>
+                <input type="text" placeholder="Enter your subject"required> 
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------- -->
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nam quo. Esse autem omnis hic? Officiis aut vero consectetur saepe aperiam enim necessitatibus. <br>Obcaecati facilis soluta voluptatibus, ipsam esse non.</p>
+    <div class="icon">
+        <a href="https://www.facebook.com/"target="blank"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/"target="blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.instagram.com/"target="blank"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/"target="blank"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.reddit.com/"target="blank"><i class="fa fa-reddit"></i></a> 
+        <a href="https://mail.google.com/"target="blank"><i class="fa fa-envelope"></i></a> 
+    </div>
+</section>
+<!--------------------------------------------- -->
+<script>
+    var navLinks=document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0px";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
